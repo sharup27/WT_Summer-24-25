@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+
+  background-color: #e8f5e9;
+
+  display: flex;
+
+  justify-content: center;
+
+  padding: 40px;
+
+}
+
+
+
+
+ 
+.form-container {
+
+  background: #ffffff;
+
+  padding: 30px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 0 12px rgba(34, 139, 34, 0.3);
+
+  width: 450px;
+
+}
+
+
+
+ 
+.section-title {
+
+  color: rgb(101, 84, 84);
+
+  font-size: 20px;
+
+  margin-bottom: 20px;
+
+  text-align: center;
+
+}
+
+
+
+ 
+input[type="text"],
+
+input[type="email"],
+
+input[type="password"],
+
+input[type="number"] {
+
+  width: 100%;
+
+  padding: 10px;
+
+  margin-bottom: 15px;
+
+  border-radius: 6px;
+
+  border: 1px solid #686060;
+
+  box-sizing: border-box;
+
+}
+
+
+
+ 
+.donation-options {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  margin: 10px 0 20px 0;
+
+  flex-wrap: wrap;
+
+}
+
+
+ 
+label {
+
+  display: block;
+
+  margin-bottom: 10px;
+
+}
+
+
+ 
+input[type="radio"],
+
+input[type="checkbox"] {
+
+  margin-right: 5px;
+
+}
+
+
+ 
+.button-group {
+
+  text-align: center;
+
+}
+ 
+button {
+  padding: 10px 25px;
+
+  background-color: #0690ec;
+
+  color: rgb(231, 218, 218);
+
+  font-size: 16px;
+
+  border: none;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+}
+
+ 
+button:hover {
+
+  background-color: #005fa3;
+  
+}
+ 
